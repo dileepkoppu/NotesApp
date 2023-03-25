@@ -6,7 +6,7 @@ const connOptions = {
   useUnifiedTopology: true,
 };
 
-const MONGO_URI = process.env.MONGO_URI || "mongodb://0.0.0.0:27017/Notes";
+const MONGO_URI = process.env.MONGO_URI || "mongodb+srv://dattabharath:Sairam@1@sairam.ccpaemm.mongodb.net/sairammandapaka?retryWrites=true&w=majority";
 
 const connectToDB = async () => {
   try {
